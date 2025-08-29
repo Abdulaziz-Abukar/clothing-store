@@ -43,11 +43,6 @@ export default function RootLayout({
         <main>{children}</main>
 
         {/* Site-wide Footer */}
-        {/* <footer>
-          <div className="text-muted-foreground container py-6 text-sm">
-            © {new Date().getFullYear()} Clothing Store. All rights reserved.
-          </div>
-        </footer> */}
 
         {/* Toast notifications */}
         <Toaster richColors />
