@@ -24,7 +24,7 @@ export default function SiteHeader() {
           href="/"
           className="font-accent text-3xl font-semibold lg:text-4xl"
         >
-          Violà
+          Voilà
         </Link>
         <nav className="font-heading flex h-fit gap-10 pt-1 text-base lg:gap-20 lg:text-xl">
           <Link href="/new" className={navLink}>
@@ -33,8 +33,8 @@ export default function SiteHeader() {
           <Link href="/hijabs" className={navLink}>
             Hijabs
           </Link>
-          <Link href="/accessiores" className={navLink}>
-            Accessiores
+          <Link href="/accessories" className={navLink}>
+            Accessories
           </Link>
           <Link href="/signup" className={navLink}>
             Rewards
